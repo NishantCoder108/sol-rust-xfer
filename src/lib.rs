@@ -5,11 +5,10 @@ pub mod utils;
 
 #[cfg(test)]
 mod tests {
-    use super::keygen;
     use super::*;
     #[test]
     fn test_keygen() {
-        let result = keygen::generate_keypair("dev-wallet.json");
+        let result = keygen::generate_keypair();
         assert!(
             result.is_ok(),
             "Failed to generate keypair: {:?}",

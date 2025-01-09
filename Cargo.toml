@@ -6,3 +6,8 @@ edition = "2021"
 [dependencies]
 solana-client = "2.1.7"
 solana-sdk = "2.1.7"
+
+
+[[bin]]
+name = "sol-rust-xfer"
+path = "src/lib.rs"

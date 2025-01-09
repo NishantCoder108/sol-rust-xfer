@@ -1,3 +1,3 @@
 pub fn transfer_sol() {
-    println("Transfer SOL");
+    println!("Transfer SOL");
 }
